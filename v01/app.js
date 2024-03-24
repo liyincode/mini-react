@@ -1,3 +1,6 @@
-import {createElement} from "./core/React.js";
+import React from "./core/React.js";
 
-export const App = createElement('div', {id: 'app'}, 'app', 'aaaa')
+const App = React.createElement('div', {id: 'app'}, 'app', 'aaaa')
+
+
+export default App

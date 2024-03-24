@@ -39,9 +39,9 @@ function render(el, container) {
 
 }
 
-
-
-export {
+const React = {
     render,
     createElement,
 }
+
+export default React
