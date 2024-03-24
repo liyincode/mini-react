@@ -39,17 +39,9 @@ function render(el, container) {
 
 }
 
-    const ReactDom = {
-        createRoot(container) {
-            return {
-                render(App) {
-                    render(App, container)
-                }
-            }
-        }
-    }
+
 
 export {
-    ReactDom,
+    render,
     createElement,
 }

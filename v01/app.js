@@ -1,3 +1,3 @@
-import { createElement } from "./core/react-dom/client.js";
+import {createElement} from "./core/React.js";
 
-export const App = createElement('div', { id: 'app'}, 'app', 'aaaa')
+export const App = createElement('div', {id: 'app'}, 'app', 'aaaa')
